@@ -1,0 +1,45 @@
+.dsc-meetings{
+	width:clamp(300px,80%,1400px);
+	margin: 2rem auto;
+	overflow:auto;
+	overflow-x:hidden;
+}
+.dsc-meetings > h2{
+	width:50%;
+	margin: 2rem auto;
+	font-size: 7vh;
+}
+.dsc-meetings > img{
+	width: 80%;
+	height: 10rem;
+	margin: 1rem 10%;
+}
+.dsc > p{
+	width:40%;
+	margin: 2rem auto;
+	font-size: 3vh;
+	display: flex;
+	justify-content: space-between;
+	gap:10px;
+	
+	
+}
+p>div{
+	width: 10rem;
+	height: 10rem;
+}
+.project-progress{
+	
+}
+.dsc{
+	display:flex;
+	width:80%;
+	justify-content:space-between;
+	align-items: center;
+	margin: 0 auto;
+	flex-wrap:wrap;
+}
+.dsc-meetings > p{
+	width:50%;
+	margin: 0 auto;
+}

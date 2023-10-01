@@ -1,0 +1,112 @@
+.insp-story{
+	width: clamp(200px, 80%,1400px);
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	
+	justify-content:space-between;
+}
+.insp-story > h1{
+	width: 80%;
+	margin: 3rem auto;
+}
+.story{
+	
+	margin: 2rem auto;
+	width: clamp(200px,27%,500px);
+	border: 2px solid rgba(0,0,0,0.2);
+	padding: 10px;
+	border-radius: 50px;
+}
+.story-image{
+	width: clamp(10rem,20%,700px);
+	height:10rem;
+	background-color: pink;
+	margin: 0 auto;
+	border-radius: 50%;
+	
+}
+.story-text{
+	width:clamp(200px,40%,700px);
+	margin: 2rem auto;
+}
+.before{
+	width: clamp(200px,70%,1400px);
+
+	border: 1px solid rgba(0,0,0,0.3);
+	margin: 0 auto;
+	padding: 2%;
+}
+.before > h1,p{
+	width: 80%;
+	margin:0 auto;
+}
+.candidate-info{
+	width: 70%;
+	margin: 3vh auto;
+	padding:2%;
+	border: 3px solid black;
+	display: flex;
+	align-items:center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.candidate-info > div:nth-child(1){
+	width: clamp(150px,40%,600px);
+	height: 15rem;
+	border: 2px solid black;
+	
+}
+.candidate-info > div:nth-child(2){
+	width: clamp(150px,40%,600px);
+	height: 15rem;
+	border: 2px solid black;
+	
+}
+.testimonials{
+	width: clamp(200px,70%,1400px);
+	margin: 3rem auto;
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+	
+}
+.testimonials > h1{
+	width: 100%;
+	margin: 1rem auto;
+}
+.testimonials > img {
+	width: 50px;
+	height: 50px;
+	margin: 0 rem;
+}
+.testimonials > img:hover{
+	background-color: rgba(255,255,255,0.5);
+	
+}
+.testimonial-main{
+	width: 50%;
+	margin: 2rem auto;
+	
+}
+.testimonial-image{
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+
+	margin: 3vh 40%;
+	
+}
+.testimonial-text{
+	width: 80%;
+	margin: 2rem auto;
+	text-align:center;
+}
+.testimonial-text > h1{
+	width: 70%;
+	margin: 0 auto;
+}
+.testimonial-text > p{
+	width: 80%;
+	margin: 0 auto;
+}

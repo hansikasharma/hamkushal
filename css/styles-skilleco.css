@@ -1,0 +1,107 @@
+.program-body{
+	
+	width: 16rem;
+	border-radius: 10px;
+	margin: 2rem 1rem;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+.program-body:hover{
+	box-shadow: 1px 1px 20px 4px rgba(0,0,0,0.3);
+	cursor:pointer;
+}
+.programs-schemes{
+	display: flex;
+	flex-wrap: wrap;
+	width: clamp(300px,80%,2000px);
+	margin: 3rem auto;
+	justify-content: space-around;
+	align-items: center;
+}
+.programs-schemes > h1 {
+	width: 100%;
+}
+.program{
+	width: 7rem;
+	height: 7rem;
+	margin: 1.4rem 27%;
+
+}
+.program-text{
+	margin: 7px auto;
+	width: 13rem;
+}
+.parterners-carousel{
+	width: 80%;
+	margin: 3rem auto;
+	background-color:var(--green);
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+	flex-wrap:wrap;
+	border-radius: 20px;
+}
+.carousel-1{
+	width: 70%;
+	margin: 2rem auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+}
+.carosel-item >img{
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	border: 2px solid black;
+	
+}
+.parterners-carousel > img {
+	width: 50px;
+	height: 50px;
+	margin: 0 2rem;
+}
+.parterners-carousel > img:hover{
+	background-color: rgba(255,255,255,0.5);
+	
+}
+.parterners-carousel >h1 {
+	width: 100%;
+	margin: 4rem 0 0 10rem;
+}
+.register-button{
+	width: 50%;
+	margin: 10px 20%;
+	background-color: var(--coral);
+	height: 3rem;
+	border:none;
+	
+}
+.register-button:hover{
+	border: 2px solid black;
+	opacity: 0.9;
+	box-shadow: 2px 2px 10px black;
+}
+.training-centers{
+	border:2px solid rgba(0,0,0,0.6);
+	width: clamp(200px,80%,1400px);
+	margin: 3rem auto;
+}
+.training-centers>h1{
+	width: 80%;
+	margin:3rem auto;
+}
+.center-box{
+
+	width: 80%;
+	margin: 2rem auto;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 20px 30px;
+}
+.center-box:hover{
+	cursor:pointer;
+	box-shadow: 2px 2px 10px black;
+}
+.calender-item{
+	width: 80%;
+	margin: 3rem auto;
+}

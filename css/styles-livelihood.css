@@ -1,0 +1,45 @@
+.training-centers{
+	
+	width: clamp(200px,80%,1400px);
+	margin: 3rem auto;
+}
+.training-centers>h1{
+	width: 80%;
+	margin:3rem auto;
+}
+.center-box{
+
+	width: 80%;
+	margin: 2rem auto;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 20px 30px;
+}
+.center-box:hover{
+	cursor:pointer;
+	box-shadow: 2px 2px 10px black;
+}
+.partner-info{
+	border: 1px solid rgba(0,0,0,0.3);
+	width: clamp(300px,70%,1400px);
+	margin: 2rem auto;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+.partner-image{
+	width: clamp(200px,40%, 500px);
+	height: 8rem;
+	background-color: green;
+	display: flex;
+	margin:1rem;
+	
+}
+.partner-text{
+	width: clamp(200px,40%,700px);
+}
+.partner-box > h1{
+	width: 60%;
+	margin: 0 auto;
+}
